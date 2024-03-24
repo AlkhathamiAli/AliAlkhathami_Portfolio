@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {%include 'bootstrap.html'%}
+
+    <title>Your message submitted sccessfully</title>
+  </head>
+<body>
+  {%include 'banner.html'%}
+  <h4>Full Name </h4>
+  <div>{{data['full_name']}}</div>
+
+  <h4>Email</h4>
+  <div>{{data['email']}}</div>
+
+  <h4>message </h4>
+  <div>{{data['message']}}</div>
+
+</body>
+</html>
